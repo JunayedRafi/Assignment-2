@@ -10,17 +10,22 @@
 
 
 body{
+    max-width: 1440px;
+    margin: 0 auto;
     background-color: #F5F8FF;
 }
-h2{
+h2, .noto-sans{
     font-family: var(--primary-font);
+}
+.inter{
+    font-family: var(--secondery-font);
 }
 p{
     font-family: var(--secondery-font);
     color: rgba(0, 0, 0, 0.5);
     font-size: 22px;
 }
-h3, h4, h5, button{
+h3, h4, h5, button, ul, li{
     font-family: var(--secondery-font);
 }
 .text-22px{
@@ -49,22 +54,44 @@ h3, h4, h5, button{
     padding-top: 226px;
 }
 /* Plants */
-.plants-title{
+.section-title{
     font-size: 50px;
     color: #000000;
 }
-
+.gray{
+    color: rgba(0, 0, 0, 0.5);
+}
 .plants{
     margin-top: 120px;
 }
-.plants .section-desc{
+/* .plants .section-desc{
     width: 888px;
-}
+} */
 .cart-btn{
     padding: 19px 80px;
     font-size: 16px;
 }
+.trust-icon img {
+    margin-top: -123px;
+    margin-right: -97px;
+    position: absolute;
+}
+.trusted-uls{
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+}
 
+.bloom{
+    
+    background-image: url(assets/deal-bloom.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.newsletter{
+    background-image: url(assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 /* Responsive */
 
 @media screen and (max-width: 576px) {
