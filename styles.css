@@ -44,7 +44,9 @@ h3, h4, h5, button, ul, li{
 .navbar, section{
     margin: 0 auto;
 }
-
+.pbutton{
+    padding: 19px;
+}
 /* Hero */
 .title{
     font-size: 65px;
@@ -60,16 +62,10 @@ h3, h4, h5, button, ul, li{
 .gray{
     color: rgba(0, 0, 0, 0.5);
 }
-.plants{
-    margin-top: 120px;
-}
+
 /* .plants .section-desc{
     width: 888px;
 } */
-.cart-btn{
-    padding: 19px 80px;
-    font-size: 16px;
-}
 .trust-icon img {
     margin-top: -123px;
     margin-right: -97px;
