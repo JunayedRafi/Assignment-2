@@ -51,9 +51,9 @@ h3, h4, h5, button, ul, li{
 .title{
     font-size: 65px;
 }
-.hero{
-    padding-top: 226px;
-}
+/* .hero{
+    padding-top: 210px;
+} */
 /* Plants */
 .section-title{
     font-size: 50px;
@@ -94,6 +94,8 @@ h3, h4, h5, button, ul, li{
 .newsletter{
     max-width: 100%;
 }
+
+
 /* Responsive */
 
 @media screen and (max-width: 576px) {
